@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga da Justiça bootstrap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  
+</head>
+<body>
+    <h1> A liga da Justiça</h1>
+
+<div class="container mt-4">
+
+  <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div data-bs-interval="3000" class="carousel-item active">
+        <img src="https://images.hdqwalls.com/download/superman-dc-comics-75-1024x768.jpg" alt="Imagem 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.wallpapersafari.com/15/72/VxP9i1.jpg" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.hdqwalls.com/download/flash-vs-zoom-art-5k-e6-1024x768.jpg" alt="Imagem 3">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próxima</span>
+    </a>
+  </div>
+
+  
+  <div class="row mt-4">
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/f5/37/b4/f537b4387492ce7f645faeceab52e3b7.png" class="card-img-top" alt="Imagem Card">
+        <div class="card-body">
+          <h5 class="card-title">Superman</h5>
+          <p class="card-text">O homem mais forte do planeta terra</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/65/93/f9/6593f9c64fc016c0e204ad4f8df1aed9.gif" class="card-img-top" alt="Imagem Card">
+        <div class="card-body">
+          <h5 class="card-title">The Batman</h5>
+          <p class="card-text">O homem morcego</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/6d/f0/0e/6df00e939ac0daf90b8ca021be1878ad.png" class="card-img-top" alt="Imagem Card">
+        <div class="card-body">
+          <h5 class="card-title">The Flash</h5>
+          <p class="card-text">O homem mais rápido do mundo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+
+$('.carousel').carousel({
+    interval: 3000
+  });
+</script>
+
+</body>
+</html>
